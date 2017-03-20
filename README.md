@@ -10,7 +10,7 @@ You will need the [Java SDK for AppEngine and its dependencies](https://cloud.go
 
 Leiningen Clojars dependency:
 
-```
+```clojure
 [gaeclj-gcs "0.1.0"]
 ```
 
