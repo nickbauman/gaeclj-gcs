@@ -35,4 +35,3 @@
       (f)
       (finally 
         (.tearDown helper)))))
-
