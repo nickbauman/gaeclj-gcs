@@ -1,6 +1,6 @@
 (ns gaeclj.appidentity
   (:require [clj-time.coerce :as c]
-            [gaeclj.util :refer :all])
+            [gaeclj.gcsutil :refer :all])
   (:import [com.google.appengine.api.utils SystemProperty]
            [com.google.appengine.api.appidentity AppIdentityServiceFactory AppIdentityService]))
 

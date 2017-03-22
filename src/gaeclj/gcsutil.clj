@@ -1,4 +1,4 @@
-(ns gaeclj.util
+(ns gaeclj.gcsutil
   (:require [clojure.tools.logging :as log]))
 
 (defmacro try-with-default [default & forms]
