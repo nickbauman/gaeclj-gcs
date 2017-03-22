@@ -1,6 +1,6 @@
 (def appengine-version "1.9.48")
 
-(defproject gaeclj-gcs "0.1.2"
+(defproject gaeclj-gcs "0.1.3"
   :description "Clojure library for working with Google Cloud Storage API in App Engine"
   :license {:name "Eclipse Public License - v 1.0"
             :url "http://www.eclipse.org/legal/epl-v10.html"

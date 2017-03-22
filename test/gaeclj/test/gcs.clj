@@ -3,7 +3,7 @@
               [gaeclj.gcs :as gcs]            
               [gaeclj.test.helpers :as helper]
               [gaeclj.test.fixtures :as fixtures]
-              [gaeclj.util :refer [try-with-default]]
+              [gaeclj.gcsutil :refer [try-with-default]]
               [clojure.data.json :as json]
               [clojure.java.io :as io]
               [clj-time.core :as t])
