@@ -20,7 +20,9 @@ Leiningen Clojars dependency:
 
 Through leiningen
 
-    > lein test
+```shell
+lein test
+```
 
 ## License
 
