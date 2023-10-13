@@ -1,4 +1,4 @@
-(def appengine-version "2.0.19")
+(def appengine-version "2.0.20")
 
 (defproject gaeclj-gcs "0.1.3"
   :description "Clojure library for working with Google Cloud Storage API in App Engine"
