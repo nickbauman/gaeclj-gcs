@@ -12,3 +12,5 @@ pom.xml.asc
 foobarbaz
 *.DS_Store
 WEB-INF/
+gaeclj-gcs.iml
+.idea
