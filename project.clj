@@ -1,4 +1,4 @@
-(def appengine-version "1.9.48")
+(def appengine-version "2.0.19")
 
 (defproject gaeclj-gcs "0.1.3"
   :description "Clojure library for working with Google Cloud Storage API in App Engine"
@@ -35,6 +35,6 @@
   :profiles
   {:dev
    {:dependencies [[com.google.appengine/appengine-testing ~appengine-version]
-                   [com.google.appengine/appengine-api-labs ~appengine-version]
+                   ;[com.google.appengine/appengine-api-labs ~appengine-version]
                    [com.google.appengine/appengine-api-stubs ~appengine-version]
                    [com.google.appengine/appengine-tools-sdk ~appengine-version]]}})

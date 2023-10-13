@@ -2,7 +2,6 @@
 (:import [com.google.appengine.tools.development.testing 
           LocalServiceTestConfig 
           LocalServiceTestHelper 
-          LocalFileServiceTestConfig 
           LocalBlobstoreServiceTestConfig])
 (:require [clojure.java.io :as io])
 (:use clojure.test
@@ -21,12 +20,8 @@
       (LocalBlobstoreServiceTestConfig.) 
     (.setNoStorage true)))
 
-(defn- fileservice-config [] 
-  (LocalFileServiceTestConfig.))
-
 (defn- create-local-test-helper []
-  (LocalServiceTestHelper. (into-array LocalServiceTestConfig [(fileservice-config)
-                                                               (blobstore-config)])))
+  (LocalServiceTestHelper. (into-array LocalServiceTestConfig [(blobstore-config)])))
 
 (defn setup-local-service-test-helper [f] 
   (let [helper (create-local-test-helper)]
