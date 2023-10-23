@@ -6,14 +6,14 @@ Google Cloud Storage API support in Clojure for the Java SDK for AppEngine. Also
 
 ## Prerequisites
 
-You will need the [Java SDK for AppEngine and its dependencies](https://cloud.google.com/appengine/docs/standard/java/download). 
+You will need the [Java SDK for AppEngine and its dependencies](https://cloud.google.com/appengine/docs/standard/java-gen2/runtime).
 
 ## Using
 
 Leiningen Clojars dependency:
 
 ```clojure
-[gaeclj-gcs "0.1.1"]
+[gaeclj-gcs "0.1.2"]
 ```
 
 ## Runing the automated tests
